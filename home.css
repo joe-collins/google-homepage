@@ -1,0 +1,45 @@
+.fauximage {
+  background-image: url('images/g-icons.png');
+  background-size: 528px 68px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+#appGrid { background-position: -132px -38px; }
+#notifications { background-position: -194px -21px; }
+
+.horizontal {
+  list-style-type: none;
+  margin: 1em 0 0 1em;
+  padding: 0;
+  height: 2em;
+  vertical-align: center;
+}
+
+.horizontal li {
+  display: inline;
+  margin-left: 0.5em;
+}
+
+ul.horizontal.right {
+  float: right;
+  margin: -2em 1em 0 0;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main p {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 4em;
+  width: 100%;
+}
