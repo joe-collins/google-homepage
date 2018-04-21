@@ -33,9 +33,25 @@ main {
   transform: translate(-50%, -50%);
 }
 
+main img {
+  margin: 0 auto;
+  display: block;
+}
+main form input[type="text"] {
+  width: 40em;
+}
+main form input {
+  width: 20em;
+  margin: 1em 0 auto 0;
+  padding: 0.7em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 main p {
+  margin-top: 1em;
   text-align: center;
 }
+
 
 footer {
   position: absolute;
